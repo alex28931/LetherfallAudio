@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{cecf18d8-71b9-4898-b229-f661eb1627a8}">
+		<property name="assetPath">
+			<value>lock_opne gate/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{930126f5-1040-4833-9384-85d9de50e63e}</destination>
+		</relationship>
+	</object>
+</objects>

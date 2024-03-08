@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{1f522c06-7421-49b7-88ee-8f45d444eb24}">
+		<property name="assetPath">
+			<value>fog/fog ambience .wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>10.073729166666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{930126f5-1040-4833-9384-85d9de50e63e}</destination>
+		</relationship>
+	</object>
+</objects>

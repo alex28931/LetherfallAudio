@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{8aed0c6d-5d86-4713-93dd-1f2cdc13119a}">
+		<property name="assetPath">
+			<value>fog/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{930126f5-1040-4833-9384-85d9de50e63e}</destination>
+		</relationship>
+	</object>
+</objects>

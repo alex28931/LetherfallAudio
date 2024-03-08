@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{170018a7-e360-4cce-8706-298a7993fbac}">
+		<property name="assetPath">
+			<value>passi legno/passo legno 4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.9137291666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{930126f5-1040-4833-9384-85d9de50e63e}</destination>
+		</relationship>
+	</object>
+</objects>
