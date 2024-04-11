@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e853fd1c-3ad2-4ebc-84d5-963be7031ad1}">
 		<property name="name">
-			<value>Shot_2</value>
+			<value>Shot_Dry</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -31,6 +31,9 @@
 		<relationship name="parameters">
 			<destination>{4fcd384a-2703-4584-a104-34c78d846cf3}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{4a5b3f3e-9e44-4fa7-ae6c-f6cc833f5016}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{08cec71f-1320-4336-a6c8-e928774d378f}">
 		<relationship name="masterBus">
@@ -56,7 +59,11 @@
 			<destination>{4cb8db14-4dd8-4f53-8a2a-c01d87942e94}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{b898f740-83e1-4134-b3f3-acb4f9ef604c}" />
+	<object class="EventAutomatableProperties" id="{b898f740-83e1-4134-b3f3-acb4f9ef604c}">
+		<property name="maximumDistance">
+			<value>95</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{74dfb788-0051-41c6-bb9a-d2f664692ea8}" />
 	<object class="Timeline" id="{b3cb0f8f-c017-4e30-8f28-273e68202365}">
 		<property name="isProxyEnabled">
@@ -98,34 +105,65 @@
 	</object>
 	<object class="MixerBusPanner" id="{557cde47-fb5e-431b-afc3-1a50f7e78354}" />
 	<object class="MultiSound" id="{9b9cd78c-faa9-4bf3-bbba-46835c3da504}">
+		<property name="startOffset">
+			<value>2</value>
+		</property>
 		<relationship name="sounds">
-			<destination>{4a03b2b0-00e9-4f94-9b0d-6b724d557997}</destination>
-			<destination>{c719a695-1c65-4338-8eed-7091a43d10e3}</destination>
-			<destination>{97b8de09-7a8e-4545-a0f7-ccd9688fb079}</destination>
-			<destination>{0e799240-680e-40e5-8b5d-78ee14f28490}</destination>
+			<destination>{c11d2b6a-ccb0-453a-b5ab-1e86c8087888}</destination>
+			<destination>{83c8120a-bb6d-4241-9811-86f370934408}</destination>
+			<destination>{6b7eeb5a-9a3e-4780-8d8d-794d65b97c46}</destination>
+			<destination>{5b8b9834-ac78-44f7-bbc4-5ebaa2152826}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{5d01292c-a9e8-43ec-8e06-fe8b76b91883}" />
 	<object class="MixerBusFader" id="{868d3c14-c99a-4780-a24a-ed66770839aa}" />
-	<object class="SpatialiserEffect" id="{044ef393-5f1c-4bd8-a5b2-168e13056fb7}" />
-	<object class="SingleSound" id="{4a03b2b0-00e9-4f94-9b0d-6b724d557997}">
+	<object class="SpatialiserEffect" id="{044ef393-5f1c-4bd8-a5b2-168e13056fb7}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="soundSize">
+			<value>0.5</value>
+		</property>
+	</object>
+	<object class="SingleSound" id="{c11d2b6a-ccb0-453a-b5ab-1e86c8087888}">
+		<property name="volume">
+			<value>4</value>
+		</property>
+		<property name="pitch">
+			<value>-0.5</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{6cfe2eee-28b9-4de5-8817-f004cde6f236}</destination>
+			<destination>{0818f913-2ad0-4c29-bf16-2bb307c79f1d}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{c719a695-1c65-4338-8eed-7091a43d10e3}">
+	<object class="SingleSound" id="{83c8120a-bb6d-4241-9811-86f370934408}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{7835b5ae-ff82-4c2d-a00a-607f97273e53}</destination>
+			<destination>{0818f913-2ad0-4c29-bf16-2bb307c79f1d}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{97b8de09-7a8e-4545-a0f7-ccd9688fb079}">
+	<object class="SingleSound" id="{6b7eeb5a-9a3e-4780-8d8d-794d65b97c46}">
+		<property name="volume">
+			<value>5.5</value>
+		</property>
+		<property name="pitch">
+			<value>-0.800000012</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{f3103173-98c0-4ec4-9a6c-bef91e4e211f}</destination>
+			<destination>{0818f913-2ad0-4c29-bf16-2bb307c79f1d}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{0e799240-680e-40e5-8b5d-78ee14f28490}">
+	<object class="SingleSound" id="{5b8b9834-ac78-44f7-bbc4-5ebaa2152826}">
+		<property name="volume">
+			<value>6</value>
+		</property>
+		<property name="pitch">
+			<value>-1</value>
+		</property>
 		<relationship name="audioFile">
-			<destination>{ddc1b641-190c-4a2b-989d-249b5bf4cfc9}</destination>
+			<destination>{0818f913-2ad0-4c29-bf16-2bb307c79f1d}</destination>
 		</relationship>
 	</object>
 </objects>
