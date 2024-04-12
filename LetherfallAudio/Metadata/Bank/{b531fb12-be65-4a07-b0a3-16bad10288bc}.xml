@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Bank" id="{b531fb12-be65-4a07-b0a3-16bad10288bc}">
+		<property name="name">
+			<value>Breathing_Sprint</value>
+		</property>
+		<relationship name="folder">
+			<destination>{6551cd81-31f1-4fea-b2bd-bd24f61aec64}</destination>
+		</relationship>
+	</object>
+</objects>

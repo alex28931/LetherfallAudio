@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{6cfe2eee-28b9-4de5-8817-f004cde6f236}">
+	<object class="AudioFile" id="{b4eeccf9-07f1-4071-9f33-2bbd32304990}">
 		<property name="assetPath">
-			<value>Shooting/Shooting_Rifle/SFX_Shooting_BulletShell_01.wav</value>
+			<value>Shooting/Gun/BlowBack.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.0662083333333334</value>
+			<value>0.62501133786848073</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{930126f5-1040-4833-9384-85d9de50e63e}</destination>
