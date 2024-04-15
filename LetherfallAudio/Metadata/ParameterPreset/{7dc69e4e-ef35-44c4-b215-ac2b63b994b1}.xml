@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{7dc69e4e-ef35-44c4-b215-ac2b63b994b1}">
+		<property name="name">
+			<value>Wind_Interiors</value>
+		</property>
+		<relationship name="folder">
+			<destination>{627a54e0-71ca-4918-ab44-cb577b6506be}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{64eed22e-810a-4f58-bc17-bc06469d37cc}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{64eed22e-810a-4f58-bc17-bc06469d37cc}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.62999999523162842</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
